@@ -35,15 +35,43 @@ li a:hover:not(.active) {
   display: none;
   text-align: center;
 }
+p {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+.resumeButton {
+  text-align: center;
+}
+a {
+  color: gray;
+}
+.games {
+  float: none;
+}
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+img {
+  width: 200px;
+  height: 250px;
+  border: 5px solid gray;
+}
+.records {
+  width: 300px;
+  height: 300px;
+  border: 5px solid white;
+}
 /*Apple Iphone 6 Media Query*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
-    font-size: 30px;
+    font-size: 200px;
   }
 }
 /*Samsung Galaxy S5 Media Query*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   h1 {
-    font-size: 30px;
+    font-size: 200px;
   }
 }
